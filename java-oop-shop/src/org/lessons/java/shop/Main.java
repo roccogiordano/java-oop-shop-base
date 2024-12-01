@@ -10,6 +10,23 @@ public class Main {
         Product secondProduct = new Product("Ice Cream", "Chocolate Flavoured Ice Cream!", 8, 22);
 
         //
-        
+
+
+        // Methods Call
+
+        System.out.printf(firstProduct.getBasePrice());
+
+        System.out.println(firstProduct.getTotalPrice());
+
+        System.out.println(firstProduct.getFullName());
+
+        System.out.println(secondProduct.getBasePrice());
+
+        System.out.println(secondProduct.getTotalPrice());
+
+        System.out.println(secondProduct.getFullName());
+
+        //
+
     }
 }
